@@ -60,6 +60,19 @@ sudo ./install.sh
 ![alt text](image-5.png)
 ![alt text](image-6.png)
 
+## 6.替换开机图标
+
+```bash
+sudo cp watermark.png /usr/share/plymouth/themes/spinner/watermark.png
+
+# 然后
+sudo nano /usr/share/plymouth/themes/spinner/spinner.plymouth
+
+# 修改 WatermarkVerticalAlignment 为 .0
+```
+
+![alt text](watermark.png)
+
 # 最终成品
 
 ![alt text](image-7.png)
