@@ -1,5 +1,9 @@
 # Macuntu theme
 
+本项目为本人的主题备份，避免下次更新24.04、26.04重装系统忘记以前是如何配置ubuntu美化的，特此备份。
+
+2024/4/22 ：首次上传，保证ubuntu22.04可用。 20.04可能有小bug。
+
 ## 1.安装优化、扩展
 ```bash
 sudo apt install gnome-tweaks gnome-shell-extensions
